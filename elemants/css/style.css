@@ -32,7 +32,8 @@ section .container .contact-infor{
     top:40px;
     width: 350px;
     height:calc(100% - 150px);
-    background: #0f3959;
+    background: rgba(15,56,87,0.5);
+    backdrop-filter: blur(5px);
     z-index: 1;
     padding:40px;
     display:flex;
@@ -99,7 +100,8 @@ section .container .contact-infor .social li:hover a i{
 .contact-form{
      position:absolute;
      padding: 70px 50px;
-     background: #fff;
+     background: rgba(255,255, 255, 0.1);
+     backdrop-filter: blur(2px);
      margin-left: 150px;
      padding-left: 250px;
      width: calc(100% - 150px);
@@ -131,7 +133,7 @@ section .container .contact-infor .social li:hover a i{
     resize: none;
     font-size: 18px;
     font-weight: 300;
-    color:#333;
+    color:#fff;
     border:none;
     border-bottom: 1px solid #777;
     outline: none;
@@ -147,7 +149,7 @@ section .container .contact-infor .social li:hover a i{
    padding:5px 0;
    font-size: 18px;
    font-weight: 300;
-   color:#333;
+   color:#fff;
    transition: .5s;
    pointer-events: none; 
 }
@@ -158,14 +160,20 @@ section .container .contact-infor .social li:hover a i{
     transform: translateY(-20px);
     font-size: 16px;
     letter-spacing: 1px;
-    color:#ff568c;
+    color:wheat; 
 }
 .contact-form .form-box .input-box input[type="submit"]{
     position: relative;
     cursor:pointer;
-    background: #0f3959;
+    background:rgba(15,56,87,0.3);
+    backdrop-filter: blur(14px);
     color:#fff;
+    font-weight: 400; 
     border:none;
     max-width: 150px;
     padding:12px;
+}
+input , textarea{
+    background:transparent;
+   
 }
