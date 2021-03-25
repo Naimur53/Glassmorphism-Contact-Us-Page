@@ -162,4 +162,10 @@ section .container .contact-infor .social li:hover a i{
 }
 .contact-form .form-box .input-box input[type="submit"]{
     position: relative;
+    cursor:pointer;
+    background: #0f3959;
+    color:#fff;
+    border:none;
+    max-width: 150px;
+    padding:11px;
 }
